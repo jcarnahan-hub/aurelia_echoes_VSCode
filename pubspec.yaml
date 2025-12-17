@@ -1,0 +1,48 @@
+name: aurelia_echoes
+description: An advanced audiobook tracking app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # --- UI & Icons ---
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0          
+
+  # --- Database ---
+  drift: ^2.13.0                
+  sqlite3_flutter_libs: ^0.5.0  
+  path_provider: ^2.1.1         
+  path: ^1.8.3
+
+  # --- Data Import & Sync ---
+  csv: ^5.0.2
+  file_picker: ^8.0.0                   
+  intl: ^0.20.2                 
+  http: ^1.6.0                  
+  cached_network_image: ^3.3.0  
+  
+  # --- Logging & Utils ---
+  logger: ^2.0.2                
+  share_plus: ^12.0.1            
+  provider: ^6.0.5              
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  
+  # --- Code Generators ---
+  build_runner: ^2.4.6 
+  drift_dev: ^2.13.0
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
